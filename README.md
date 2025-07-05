@@ -43,78 +43,7 @@
 </body>
 </html>
 body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f7f6f3;
-  color: #333;
-}
-
-header {
-  background-color: #fff;
-  text-align: center;
-  padding: 20px;
-  border-bottom: 2px solid #ccc;
-}
-
-.logo {
-  width: 100px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-h1 {
-  margin: 10px 0 5px;
-}
-
-.info, .form {
-  padding: 20px;
-  margin: 10px auto;
-  max-width: 600px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-form input, form textarea {
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-button {
-  background: #333;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  font-size: 14px;
-}
-document.getElementById("orderForm").addEventListener("submit", function (e) {
-  e.preventDefault();
   
-  const name = document.getElementById("name").value;
-  const phone = document.getElementById("phone").value;
-  const address = document.getElementById("address").value;
-
-  const confirmation = `
-    ✔ Thank you, ${name}!
-    📱 We’ll contact you at ${phone}
-    🏠 Address: ${address}
-    🛒 အမှာစာလက်ခံရရှိပါသည်။ မကြာမီ ဆက်သွယ်ပေးပါမည်။
   `;
   
   document.getElementById("confirmation").innerText = confirmation;
