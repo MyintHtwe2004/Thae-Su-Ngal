@@ -42,11 +42,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-body {
-  
-  `;
-  
-  document.getElementById("confirmation").innerText = confirmation;
-  document.getElementById("orderForm").reset();
-});
-
