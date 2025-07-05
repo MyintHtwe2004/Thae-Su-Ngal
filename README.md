@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Myint Store Logo" class="logo" />
+    <img src="logo.png" alt="docs/assets/A250D000-8FF7-4571-A6D3-B621714A6CCD.png" class="logo" />
     <h1>Myint Store</h1>
     <p>Classic Fashion & Accessories</p>
   </header>
