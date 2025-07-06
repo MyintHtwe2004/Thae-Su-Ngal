@@ -1,3 +1,7 @@
-<img src="D297E8AB-6B01-4643-A4AD-A030EEFDC730.jpeg" alt="My Product" width="300">
+<header>
+  <img src="docs/assets/A250D000-8FF7-4571-A6D3-B621714A6CCD.png" alt="Myint Store Logo" class="logo">
+  <h1>Myint Store</h1>
+  <p>Classic Fashion & Accessories</p>
+</header>
 #show_downloads: true
 theme: jekyll-theme-minimal
